@@ -10,3 +10,6 @@ arithematic3=$((num1+num2/num3))
 arithematic4=$((num1%num2+num3))
 	DICTIONARY=$(( [$arithematic] [$arithematic2] [$arithematic3] [$arithematic4] ))
 	ARRAY=$(( ${#DICTIONARY[@]} ))
+sort ARRAY -nr
+	echo "${ARRAY[@]}"
+
